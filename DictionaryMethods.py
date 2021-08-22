@@ -1,0 +1,18 @@
+d={1:"Pizza",2:"Burger",3:"French Fries",4:"Pasta",5:"Noodles"}
+x=d.copy()
+print(x)
+print(d.get(3))
+print(d.items())
+print(d.keys())
+d.pop(5)
+print(d)
+d.popitem()
+print(d)
+b=d.setdefault(2,"Spaghetti")
+print(b)
+print(d.values())
+print(d.clear())
+d1=(1,2,3)
+d2="Patties"
+d3=dict.fromkeys(d1,d2)
+print(d3)
